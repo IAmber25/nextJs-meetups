@@ -1,6 +1,5 @@
 import { useRouter } from "next/router";
-import Card from "../ui/Card";
-
+import Card from "../UI/Card";
 function MeetupItem(props) {
   const router = useRouter();
   const showDetailHandler = () => {
